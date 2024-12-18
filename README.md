@@ -144,4 +144,5 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 - [Messages in bot conversations](https://learn.microsoft.com/microsoftteams/platform/bots/how-to/conversations/conversation-messages?tabs=dotnet)
 
 <img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/bot-conversation-python" />#   h r - g e m i n i  
+ #   h r - g e m i n i  
  
