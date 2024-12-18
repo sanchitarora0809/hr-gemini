@@ -1,0 +1,69 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.19/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.19",
+  "version": "1.0.0",
+  "id": "c4ffb7ce-d2d9-44fe-a851-698807f24aaa",
+  "developer": {
+      "name": "teamsConversationBot",
+      "websiteUrl": "https://www.microsoft.com",
+      "privacyUrl": "https://www.teams.com/privacy",
+      "termsOfUseUrl": "https://www.teams.com/termsofuser"
+  },
+  "icons": {
+      "outline": "outline.png",
+      "color": "color.png"
+  },
+  "name": {
+      "short": "TeamsConversationBot",
+      "full": "TeamsConversationBot"
+  },
+  "description": {
+      "short": "Demo bot for Teams showing conversation events with adaptive card support.",
+      "full": "This sample app showcases Teams bot conversation events and adaptive cards."
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+      {
+          "botId": "16e77a2f-fa04-4ee5-ae89-0b1263b89482",
+          "scopes": [
+              "personal",
+              "groupChat",
+              "team"
+          ],
+          "isNotificationOnly": false,
+          "supportsCalling": false,
+          "supportsVideo": false,
+          "supportsFiles": false,
+          "commandLists": [
+              {
+                  "scopes": [
+                      "personal",
+                      "groupChat",
+                      "team"
+                  ],
+                  "commands": [
+                      {
+                          "title": "MentionMe",
+                          "description": "Sends message with @mention of the sender"
+                      },
+                      {
+                          "title": "Show Welcome",
+                          "description": "Shows the welcome card"
+                      },
+                      {
+                          "title": "MessageAllMembers",
+                          "description": "Send 1 to 1 message to all members of the current conversation"
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "permissions": [
+      "identity",
+      "messageTeamMembers"
+  ],
+  "validDomains": [
+      "black-stone-0dc6f680f.4.azurestaticapps.net"
+  ]
+}
