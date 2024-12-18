@@ -147,4 +147,5 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
  #   h r - g e m i n i  
  #   h r - g e m i n i  
  #   h r - g e m i n i  
+ #   h r - g e m i n i  
  
