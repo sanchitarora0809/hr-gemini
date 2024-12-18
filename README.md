@@ -145,4 +145,5 @@ To learn more about deploying a bot to Azure, see [Deploy your bot to Azure](htt
 
 <img src="https://pnptelemetry.azurewebsites.net/microsoft-teams-samples/samples/bot-conversation-python" />#   h r - g e m i n i  
  #   h r - g e m i n i  
+ #   h r - g e m i n i  
  
